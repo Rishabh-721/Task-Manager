@@ -4,10 +4,7 @@
     Phase One
     "Backend Initialization"
     "MVC Structure creation"
-    "Enviroment Variable Setup and Gitignore setup"
-    Pending Tasks are 
-        - Setting up server 
-        - Starting server
-        - Setting up database
-        - Connecting Database to server
+    "Enviroment Variable Setup and Gitignore setup" 
+    "Setup and Started Server"
+    "Setup and Connected Database"
      
