@@ -15,4 +15,4 @@
       - Complete all modules
         -User Schema Compleated,
         -Team Schema Compleated,
-        -Task Schema
+        -Task Schema Compleated
