@@ -3,15 +3,14 @@ const mongoose = require('mongoose');
 const teamSchema = new mongoose.Schema({
     name: {
         type: String,
-        unique: true,
         lowercase: true,
         trim: true,
     },
-    tlid: {
+    tlId: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'tl',
+        ref: 'User',
         default: null,
     }
-})
+},{timestamps: true})
 
 module.exports = mongoose.model("Team", teamSchema); 
