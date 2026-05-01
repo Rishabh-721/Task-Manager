@@ -13,6 +13,6 @@
 
      Phase Two
       - Complete all modules
-        -User Schema,
-        -Team Schema,
+        -User Schema Compleated,
+        -Team Schema Compleated,
         -Task Schema
