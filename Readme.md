@@ -15,4 +15,16 @@
       - Complete all modules
         -User Schema Compleated,
         -Team Schema Compleated,
-        -Task Schema Compleated
+        -Task Schema Compleated,
+
+# 3rd May 2026 Tasks
+
+    Phase 3
+
+    - Auth System
+    - login & expiry Api
+    - Seed Super Admin
+
+    Phase 4
+    
+    - Invite Schema and Api    
