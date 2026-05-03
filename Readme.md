@@ -21,10 +21,10 @@
 
     Phase 3
 
-    - Auth System
-    - login & expiry Api
-    - Seed Super Admin
+    - Auth System  Done
+    - login & expiry Api Done
+    - Seed "Super Admin # Me" Done
 
     Phase 4
-    
+
     - Invite Schema and Api    
