@@ -25,6 +25,8 @@
     - login & expiry Api Done
     - Seed "Super Admin # Me" Done
 
-    Phase 4
+# 5th May 2026
 
-    - Invite Schema and Api    
+    - Invite Schema and Api,
+    - Signup Via Invite,
+    - Verify Email Api,
