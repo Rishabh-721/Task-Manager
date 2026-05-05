@@ -1,7 +1,8 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const connectDB = require('./config/db');
-const userRouter = require("./routes/user.routes")
+const userRoutes = require("./routes/user.routes");
+const inviteRoutes = require("./routes/invite.routes");
 
 dotenv.config();
 
@@ -18,7 +19,8 @@ app.get("/", (req, res)=> {
     })
 })
 
-app.use("/users", userRouter);
+app.use("/users", userRoutes);
+app.use("/users/invite", inviteRoutes);
 
 app.listen(port , () => {
     console.log(`Server is running on ${port}`)
