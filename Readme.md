@@ -27,6 +27,9 @@
 
 # 5th May 2026
 
-    - Invite Schema and Api done,
+    - Invite Schema and Api Done,
+
+# 6th May 2026
+
     - Signup Via Invite,
     - Verify Email Api,
