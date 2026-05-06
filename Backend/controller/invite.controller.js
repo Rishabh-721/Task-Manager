@@ -28,7 +28,7 @@ const createInvite = async(req, res) => {
             role,
             invitedBy: user.userId,
             token,
-            exipresAt,
+            expiresAt,
         })
 
         res.status(201).json({

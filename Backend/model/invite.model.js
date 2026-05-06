@@ -29,7 +29,7 @@ const inviteSchema = new mongoose.Schema({
         required: true,
         unique: true,
     },
-    exipresAt: {
+    expiresAt: {
         type: Date,
         required: true,
     },
