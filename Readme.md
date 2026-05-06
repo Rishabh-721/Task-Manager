@@ -32,5 +32,8 @@
 # 6th May 2026
     - expiresAt typo error resolved Done,
     - Bearer token extraction in middleware Done,
+
+# 7th May 2026
     - Signup Via Invite,
     - Verify Email Api,
+    - Role middleware in utils,
