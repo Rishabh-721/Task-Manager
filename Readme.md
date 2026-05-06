@@ -30,6 +30,7 @@
     - Invite Schema and Api Done,
 
 # 6th May 2026
-
+    - expiresAt typo error resolved Done,
+    - Bearer token extraction in middleware Done,
     - Signup Via Invite,
     - Verify Email Api,

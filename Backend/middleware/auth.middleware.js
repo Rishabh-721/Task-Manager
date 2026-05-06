@@ -1,11 +1,13 @@
 const jwt = require("jsonwebtoken");
 const auth = async(req, res, next) => {
     try {
-        const token = req.headers.authorization;
+        const authHeader = req.headers.authorization;
 
-        if(!token){
+        if(!authHeader.startWith("Bearer")){
             return res.status(401).json({ msg: "No Token, Access Not Found"})
         }
+
+        const token = authHeader.split(" ")[1];
 
         const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
