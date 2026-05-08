@@ -3,7 +3,7 @@ const auth = async(req, res, next) => {
     try {
         const authHeader = req.headers.authorization;
 
-        if(!authHeader.startWith("Bearer")){
+        if(!authHeader || !authHeader.startsWith("Bearer ")){
             return res.status(401).json({ msg: "No Token, Access Not Found"})
         }
 
@@ -16,7 +16,7 @@ const auth = async(req, res, next) => {
         next();
 
     } catch (error) {
-        return res.status(401).json({msg: "Invalid or Expired Token"});
+        return res.status(401).json({msg: `Error : ${error}`});
     }
 }
 
